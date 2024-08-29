@@ -1,0 +1,78 @@
+body {
+    background-color: #f1f3f7; 
+    font-family: Arial, sans-serif;
+    color: #382828; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.article {
+    background-color: #584894; /* Updated background color */
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px; /* Updated border-radius */
+    padding: 20px;
+    width: 70%;
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Updated shadow */
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    color: #e3e4e6; /* Lighter heading color */
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section p {
+    color: #c1c2c4; /* Light text color for better readability */
+    font-size: 16px;
+}
+
+.meetup-img img {
+    max-width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circular image */
+    margin-right: 1em;
+}
+
+address {
+    font-style: normal;
+    color: #9fa1a3; /* Light text color */
+    margin-top: 10px;
+}
+
+.btn {
+    background-color: #0056b3; 
+    color: #ffffff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    border-color: #e3e4e6;
+    cursor: pointer; 
+    border: none; 
+    font-weight: bold; 
+    text-align: center; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+  
+.btn:hover {
+    background-color: #004494; 
+    transform: scale(1.05); 
+}
+
+footer {
+    color: #9fa1a3; /* Light text color */
+    margin-top: 20px;
+    font-size: 14px;
+}

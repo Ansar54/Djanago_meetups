@@ -1,0 +1,21 @@
+{% extends 'meetups/base/base.html' %}
+{% load static %}
+
+{% block title %}Success Page{% endblock %}
+
+{% block page_css %}
+    <link rel="stylesheet" href="{% static 'meetups/styles/success_page.css' %}">
+{% endblock %}
+
+{% block main_content %}
+    <div class="main-box">
+        <div class="heading">
+            <h1 class="heading1">Success Page</h1>
+            <p class="main_text">You have entered a valid email and you have now been added to the database.</p>
+            <p class="main_text" style="color: rgb(245, 244, 247);">If you have any queries, please <a href="********************">Contact Organizer</a> for help.</p>
+        </div>
+        <section>
+            <a href="{% url 'index' %}" class="btn2">Explore More Meetups</a>
+        </section>
+    </div>
+{% endblock %}

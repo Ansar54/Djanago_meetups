@@ -1,0 +1,20 @@
+{% extends 'meetups/base/base.html' %}
+{% load static %}
+
+{% block title %}Django APP{% endblock %}
+
+{% block page_css %}
+    <link rel="stylesheet" href="{% static 'meetups/styles/all_meetups.css' %}">
+{% endblock %}
+
+{% block main_content %}
+    <div class="centered-container">
+        <h1 class="centered_heading" style="color: grey;">Upcoming Meetups</h1>
+        <p class="centered-text">We got Great Meetups Coming Up.</p>
+        <div class="meetup-list">
+            {% for meetup_item in meetups %}
+            {% include 'meetups/include/include.html' with title=meetup_item.title image=meetup_item.image.url location=meetup_item.location slug=meetup_item.slug %}
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,56 @@
+
+body {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+    font-weight: normal;
+    font-style: oblique;
+}
+
+/* Styling for the heading */
+.heading1 {
+    color: rgba(253, 253, 253, 0.904);
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Styling for the main text paragraphs */
+.main_text {
+    color: #c1c2c4; /* Light text color */
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.btn2 {
+    background-color: #0056b3;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn2:hover {
+    background-color: #004494;
+    transform: scale(1.05);
+}
+
+/* Styling for the section containing the button */
+.main-box {
+    background-color: #584894;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Center the box */
+    text-align: center;
+}

@@ -1,0 +1,13 @@
+<div class="meetup-box">
+    <div class="meetup-image">
+        <img src="{{image}}" alt="{{title}}">
+    </div>
+    <div class="meetup-details">
+        <h3 class="meetup_title">{{ title }}</h3>
+        <p>{{ location }}</p>
+        <p>{{ description }}</p>
+    </div>
+    <div class="meetup-actions">
+        <a href="{% url 'meetup_details' meetup_slug=slug %}" class="button">More Details</a>
+    </div>
+</div>
