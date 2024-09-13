@@ -29,7 +29,7 @@
 
 4. **Run the Application**:<br/>
     ```bash
-    uvicorn main_appname:app --reload
+    python manage.py runserver
 
 
 **If you have any queries **Contact me** linkedin "https://www.linkedin.com/in/ansar-ul-haq-a455b0241/"**
