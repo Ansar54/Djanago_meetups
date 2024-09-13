@@ -9,4 +9,20 @@
 <br/>
 🎨 Responsive and visually appealing UI, crafted with CSS.
 <br/>
-Author:Ansar Ul Haq
+
+## **How to Use**
+
+1. **Clone the Repository**:  
+   Download the project by cloning the repository to your local machine using the command:
+   ```bash
+   git clone https://github.com/username/repository-name.git
+
+2. **Instlling Depemdencies**:
+     **Run Commnd** pip install -r requirements.txt
+
+3. **Run the Application**:
+   **Run Command** python manage.py runserver
+
+**If you have any queries **Contact me** linkedin "https://www.linkedin.com/in/ansar-ul-haq-a455b0241/"**
+**Author**:Ansar Ul Haq
+
