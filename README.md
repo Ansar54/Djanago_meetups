@@ -1,5 +1,5 @@
 # Django_meetups
-**Django Meetups App**   A simple Django application to manage and display meetups. Users can view a list of meetups with titles and descriptions. The app demonstrates basic Django URL routing, views, and template rendering, along with simple CSS styling.
+**Django Meetups App**  Simple Django application to manage and display meetups. Users can view a list of meetups with titles and descriptions. The app demonstrates basic Django URL routing, views, and template rendering, along with simple CSS styling.
 <br/>
 <h3>Key Features</h3>
 <br/>
